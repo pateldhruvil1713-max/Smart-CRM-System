@@ -8,6 +8,18 @@ The Smart CRM (Customer Relationship Management) System is a web-based applicati
 
 ---
 
+📸 Project Preview
+
+🏠 Dashboard
+
+<img src="screenshots/Screenshot 2026-04-17 090007.png" width="600"
+👤 Customer Management
+
+<img src="screenshots/Screenshot 2026-04-17 092050.png" width="600">📊 Lead Management
+
+<img src="screenshots/Screenshot 2026-04-17 092108.png" width="600">🔔 Follow-up System
+
+<img src="screenshots/Screenshot 2026-04-17 092910.png" width="600">
 ## 🎯 2. Objective
 
 The objective of this project is to provide a centralized system where businesses can store customer information, manage leads, track follow-ups, and monitor staff performance, reducing manual effort and improving productivity.
