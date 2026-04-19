@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRM Dashboard</title>
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <h1>Smart CRM Dashboard</h1>
+
+    <h3>Total Leads: {{ total_leads }}</h3>
+    <h3>Converted Leads: {{ converted_leads }}</h3>
+    <h3>Pending Leads: {{ pending_leads }}</h3>
+    <h3>Lost Leads: {{lost_leads}}</h3>
+    <h2>📅 Today's Follow-ups</h2>
+
+{% if today_followups %}
+    <ul>
+        {% for lead in today_followups %}
+            <li>{{ lead.name }} - {{ lead.phone }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No follow-ups for today ✅</p>
+{% endif %}
+
+<!-- Chart Area -->
+
+<div style="width: 80%; height: 300px; margin: auto;">
+<canvas id="myChart"></canvas>
+</div> 
+
+    <!-- Chart Script -->
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Total', 'Converted', 'Pending', 'Lost'],
+                datasets: [{
+                    label: 'Leads Data',
+                    data: [
+                        {{ total_leads }},
+                        {{ converted_leads }},
+                        {{ pending_leads }},
+                        {{ lost_leads }}
+                    ],
+                    backgroundColor: [
+                        'blue',
+                        'green',
+                        'orange',
+                        'red'
+                    ],
+                    barThickness: 40,
+                    maxBarThickness: 50
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+    </script>
+
+</body>
+</html>
