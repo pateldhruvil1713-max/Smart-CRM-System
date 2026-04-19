@@ -66,6 +66,81 @@ It helps in:
 
 ---
 
-## 📌 7. Conclusion
+## ▶️ 7. How to Run the Project
+
+Follow the steps below to run the project on your system:
+
+### 🔹 Step 1: Open Project Folder
+
+Open your terminal and navigate to the project directory:
+
+```bash
+cd smart_crm
+```
+
+---
+
+### 🔹 Step 2: Go to Project Folder
+
+```bash
+cd crm_project
+```
+
+---
+
+### 🔹 Step 3: Activate Virtual Environment
+
+```bash
+venv\Scripts\activate
+```
+
+---
+
+### 🔹 Step 4: Run the Server
+
+```bash
+py manage.py runserver
+```
+
+---
+
+### 🔹 Step 5: Open in Browser
+
+```text
+http://127.0.0.1:8000/
+```
+
+---
+
+## 🌐 Available Pages / Routes
+
+After running the project, you can access these pages:
+
+* 🔐 **Admin Panel:**
+  http://127.0.0.1:8000/admin/
+
+* 📊 **Dashboard:**
+  http://127.0.0.1:8000/dashboard/
+
+* 📋 **All Leads:**
+  http://127.0.0.1:8000/all-leads/
+
+* 📈 **Source Analysis:**
+  http://127.0.0.1:8000/source-analysis/
+
+---
+
+### ✅ Note:
+
+* Make sure Python and Django are installed
+* Virtual environment (venv) should already be created
+
+If not, create it using:
+
+```bash
+python -m venv venv
+```
+
+## 📌 8. Conclusion
 
 The Smart CRM System provides a simple and effective solution for managing customer relationships and business operations. Features like follow-up tracking and automatic lead scoring make it more powerful for real-world business use.
