@@ -28,7 +28,7 @@ The Smart CRM (Customer Relationship Management) System is a web-based applicati
 
 ### 📊 Source Analysis
 
-![image alt](
+![image alt](https://github.com/pateldhruvil1713-max/Smart-CRM-System/blob/0f2524ca2d22a0a390ce50dca64f3c4d256879f7/WhatsApp%20Image%202026-04-20%20at%209.24.59%20AM.jpeg)
 
 
 ## 🎯 3. Objective
