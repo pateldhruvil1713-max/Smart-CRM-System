@@ -8,13 +8,36 @@ The Smart CRM (Customer Relationship Management) System is a web-based applicati
 
 ---
 
-## 🎯 2. Objective
+## 📸 2. Project Preview
+
+### 🔐 Admin Login
+
+
+
+### 🛠️ Admin Panel
+
+
+
+### 🏠 Dashboard
+
+
+
+### 📋 All Leads
+
+
+
+### 📊 Source Analysis
+
+
+
+
+## 🎯 3. Objective
 
 The objective of this project is to provide a centralized system where businesses can store customer information, manage leads, track follow-ups, and monitor staff performance, reducing manual effort and improving productivity.
 
 ---
 
-## ⚙️ 3. Working of the System
+## ⚙️ 4. Working of the System
 
 The system works based on user roles:
 
@@ -28,7 +51,7 @@ The system works based on user roles:
 
 ---
 
-## 🏢 4. Business Use
+## 🏢 5. Business Use
 
 This system can be used in:
 
@@ -46,7 +69,7 @@ It helps in:
 
 ---
 
-## 🚀 5. Key Features
+## 🚀 6. Key Features
 
 * Secure Login & Authentication
 * Admin Dashboard
@@ -58,7 +81,7 @@ It helps in:
 
 ---
 
-## 🛠️ 6. Technologies Used
+## 🛠️ 7. Technologies Used
 
 * Backend: Python, Django
 * Frontend: HTML, CSS, JavaScript
@@ -66,7 +89,7 @@ It helps in:
 
 ---
 
-## ▶️ 7. How to Run the Project
+## ▶️ 8. How to Run the Project
 
 Follow the steps below to run the project on your system:
 
@@ -141,6 +164,6 @@ If not, create it using:
 python -m venv venv
 ```
 
-## 📌 8. Conclusion
+## 📌 9. Conclusion
 
 The Smart CRM System provides a simple and effective solution for managing customer relationships and business operations. Features like follow-up tracking and automatic lead scoring make it more powerful for real-world business use.
